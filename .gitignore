@@ -1,0 +1,26 @@
+# node_modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# build files
+dist/
+client/dist/
+
+# environment variables
+.env
+server/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Assets - Make sure these are NOT ignored (default behavior is to include unless specified)
+# client/src/assets/
+# client/public/
