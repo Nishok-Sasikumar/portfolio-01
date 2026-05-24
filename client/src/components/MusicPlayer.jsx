@@ -90,7 +90,7 @@ const MusicPlayer = () => {
                 onClick={togglePlay}
                 className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-amber-500 text-stone-950 rounded-full hover:scale-105 transition-transform active:scale-95 shadow-[0_0_20px_rgba(245,158,11,0.4)] z-10 relative"
               >
-                {isPlaying ? <FaPause size={12} className="md:size-14" /> : <FaPlay className="ml-1 md:size-14" size={12} />}
+                {isPlaying ? <FaPause size={14} /> : <FaPlay className="ml-1" size={14} />}
               </button>
             </Magnetic>
           </div>
@@ -101,7 +101,7 @@ const MusicPlayer = () => {
               onClick={toggleMute}
               className="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center text-stone-400 hover:text-white transition-colors"
             >
-              {isMuted ? <FaVolumeMute size={12} className="md:size-14" /> : <FaVolumeUp size={12} className="md:size-14" />}
+              {isMuted ? <FaVolumeMute size={14} /> : <FaVolumeUp size={14} />}
             </button>
           </Magnetic>
         </div>
@@ -110,7 +110,7 @@ const MusicPlayer = () => {
         <div className="pr-4 md:pr-6 pl-1 md:pl-2">
           <div className="flex flex-col">
             <span className="text-[7px] md:text-[8px] font-mono uppercase tracking-[0.2em] text-amber-500/80">Live</span>
-            <span className="text-[9px] md:text-[10px] font-serif text-stone-200 truncate max-w-[80px] md:max-w-[100px]">The Mountain</span>
+            <span className="text-[9px] md:text-[10px] font-serif text-stone-200 truncate max-w-[80px] md:max-w-[120px]">The Mountain</span>
           </div>
         </div>
 
