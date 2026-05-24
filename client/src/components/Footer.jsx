@@ -9,7 +9,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: <FaGithub />, href: 'https://github.com/Nishok-Sasikumar/', label: 'GitHub' },
     { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/nishok-s-0b76b2291/', label: 'LinkedIn' },
-    { icon: <FaInstagram />, href: 'https://instagram.com/nishok_s', label: 'Instagram' },
+    { icon: <FaInstagram />, href: 'https://instagram.com/nishok_.s', label: 'Instagram' },
   ];
 
   return (
