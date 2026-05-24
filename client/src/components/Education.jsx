@@ -24,7 +24,7 @@ const eduData = [
   {
     id: 3,
     degree: 'Secondary Education',
-    institution: 'Appu Arivaalayem CBSE Secondary School, Erode.',
+    institution: 'Appu Arivaalayem CBSE Secondary School, Salem.',
     year: 'MMXIX - MMXXI',
     details: 'Foundation years focused on developing a strong base in science and mathematics.',
     score: '92.6',
